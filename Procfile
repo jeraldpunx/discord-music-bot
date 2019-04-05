@@ -1,2 +1,1 @@
-process node index.js
-worker node index2.js
+web: node index.js & node index2.js

@@ -433,4 +433,4 @@ bot.on('message', async message => {
 });
 
 
-bot.login(process.env.token);
+bot.login('NDY4MTEwMjI1OTQxOTg3MzI4.XKbhww.2hXTQT07JBsFR4k7jjccotKxHl8');

@@ -34,4 +34,4 @@ client.on('message', (msg) => {
 	console.log(msg.content);
 });
 
-client.login('NTYyODUyMzEzMTgyNTAyOTIy.XKQz2w.Fnqcx4OM0MjfHIlRBEqnL2gUS3o');
+client.login('NDY4MTEwMjI1OTQxOTg3MzI4.XKbhww.2hXTQT07JBsFR4k7jjccotKxHl8');

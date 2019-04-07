@@ -173,7 +173,7 @@ bot.on('message', async message => {
         let announceMessage = args.join(" ");
         if (!announceMessage) return message.channel.send("```Use: +announce <Message>```");
 
-        let announceChannel = message.guild.channels.find(`name`, "announcements");
+        let announceChannel = message.guild.channels.find(`name`, "📫announcements📫");
 
         let announceEmbed = new Discord.RichEmbed()
             .setColor("#23E5F3")

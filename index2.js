@@ -35,7 +35,7 @@ bot.on('ready', async () => {
     // We can post into the console that the bot launched.
     console.log('- - - - Good Job Desi! Bot is now on. - - - -');
 
-    bot.user.setActivity('Scheduled Shutdown ;(', {
+    bot.user.setActivity('to CloudCraft | +help', {
             type: 'LISTENING'
         }) // or 'PLAYING' 'LISTENING' 'STREAMING'
         .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'name'}\n---------------------------------`)) // just console logs it | dont really need if you dont want it
@@ -97,7 +97,7 @@ bot.on('message', async message => {
 
         // Now, let's send a response.
         message.channel.send('Help? No worries! ' + message.author + ' , Check your DMs!');
-        message.author.send('```Skyverse Entertainment >> Coded by xDesi with Massive Help from MilaDog >> Prefix >> +\n \n \n Commands and More Information: \n Help - Shows this Menu \n Hello - Say Hello to Blaze Bot! \n *Purge(S)* - Removes a Specific Amount of Messages from a Channel. \n Support - Use this if you need immediate help from a Staff Member at Skyverse. \n Membercount - Counts the total number of players and bots in the server. \n *Announce(S)* - Announces Messages in the #annonucements Channel. \n Userinfo - Get Information about a User. \n \n \n *The Server IP, Website, and Rules can be found in #information. Thanks!* \n *(S) indicates a Staff Role is required in order to use a specific command.*```'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
+        message.author.send('```Skyverse Entertainment >> Coded by xDesi with Massive Help from MilaDog >> Prefix >> +\n \n \n Commands and More Information: \n Help - Shows this Menu \n Hello - Say Hello to Blaze Bot! \n *Purge(S)* - Removes a Specific Amount of Messages from a Channel. \n Support - Use this if you need immediate help from a Staff Member at Skyverse.\n Music- - This is the music command, to play music, do +music-play (name). \n Membercount - Counts the total number of players and bots in the server. \n *Announce(S)* - Announces Messages in the #annonucements Channel. \n Userinfo - Get Information about a User. \n \n \n *The Server IP, Website, and Rules can be found in #information. Thanks!* \n *(S) indicates a Staff Role is required in order to use a specific command.*```'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
 
 
     }

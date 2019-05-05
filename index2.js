@@ -35,7 +35,7 @@ bot.on('ready', async () => {
     // We can post into the console that the bot launched.
     console.log('- - - - Good Job Desi! Bot is now on. - - - -');
 
-    bot.user.setActivity('to CloudCraft | +help', {
+    bot.user.setActivity('CloudCraft | +help', {
             type: 'LISTENING'
         }) // or 'PLAYING' 'LISTENING' 'STREAMING'
         .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'name'}\n---------------------------------`)) // just console logs it | dont really need if you dont want it

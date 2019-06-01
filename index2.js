@@ -152,7 +152,7 @@ bot.on('message', async message => {
             .setFooter("Given by Skyverse Bot")
             .setTimestamp()
             .setDescription("----------------------------------------------------------")
-            .setColor("#0000FF")
+            .setColor("#5DFC0A")
             .addField("Full Username: ", `${member.user.username}#${member.user.discriminator}`, true)
             .addField("ID: ", member.user.id, true)
             .addField("Status: ", member.user.presence.status, true)
@@ -176,7 +176,7 @@ bot.on('message', async message => {
         let announceChannel = message.guild.channels.find(`name`, "📫announcements📫");
 
         let announceEmbed = new Discord.RichEmbed()
-            .setColor("#23E5F3")
+            .setColor("#5DFC0A")
             .setFooter(`~  ${message.author.username}`)
             .setTimestamp()
             .addField("- - - Announcement - - -", announceMessage);
